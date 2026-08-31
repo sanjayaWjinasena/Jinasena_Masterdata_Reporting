@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
-    'name': 'Jinasena : Masterdata : Reporting',
-    'version': '17.0.1.0.0',
+    'name': 'Jinasena : SubModule : Reports',
+    'version': '17.0.1.0.1',
     'summary': (
         'Cross-cutting reporting masterdata for the Jinasena Odoo '
         'installation. Owns x_sales_report_type + x_sales_report_model - '
