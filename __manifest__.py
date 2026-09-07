@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Jinasena : SubModule : Reports',
-    'version': '17.0.1.0.2',
+    'version': '17.0.1.0.3',
     'summary': (
         'Cross-cutting reporting masterdata for the Jinasena Odoo '
         'installation. Owns x_sales_report_type + x_sales_report_model - '
@@ -37,6 +37,7 @@ delete them entirely) and add this module to their `depends` list.
     'data': [
         'security/ir_model_pins.xml',
         'security/ir.model.access.csv',
+        'data/window_actions_backlog.xml',
     ],
     # Note: primary views (Default form/tree/search) stay in
     # BugFix-Accounting for now. Views don't need to live in the same
