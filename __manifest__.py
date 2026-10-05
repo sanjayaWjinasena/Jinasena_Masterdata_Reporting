@@ -44,6 +44,8 @@ delete them entirely) and add this module to their `depends` list.
     # module as the model they render. Moving them would require
     # splitting the _v2.xml files which mix primaries + extensions -
     # not worth the risk on the first migration pass. Follow-up.
+    # Staging_Migration: adopt existing Studio models for the ir.model pins.
+    'pre_init_hook': 'pre_init_hook',
     'installable': True,
     'auto_install': False,
     'application': False,
