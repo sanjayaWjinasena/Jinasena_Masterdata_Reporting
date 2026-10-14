@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """Inverse M2O for x_sales_report_type.x_studio_production_variance_id.
 Adopted from BugFix-Stock/models/stock_move.py.
 """

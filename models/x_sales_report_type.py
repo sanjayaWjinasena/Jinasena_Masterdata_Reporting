@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """x_sales_report_type - report catalog model.
 
 Adopted from BugFix-Accounting where it lived alongside sentinel copies

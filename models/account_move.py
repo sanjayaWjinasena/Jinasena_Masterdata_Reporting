@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """Inverse M2O for x_sales_report_type.x_studio_journal_entry_id.
 Adopted from BugFix-Accounting/models/account_move.py where it lived
 alongside the model itself.

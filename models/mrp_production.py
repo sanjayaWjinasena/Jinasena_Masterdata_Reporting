@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """Inverse M2O for x_sales_report_type.x_studio_production_order_id.
 Adopted from BugFix-MRP/models/mrp_production.py.
 """

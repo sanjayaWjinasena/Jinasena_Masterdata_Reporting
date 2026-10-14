@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # Inverse M2O extensions loaded FIRST so target fields exist by the time
 # x_sales_report_type declares its One2manys against them.
 from . import account_move

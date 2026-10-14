@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """Inverse M2Os for x_sales_report_type One2manys targeting stock.move.line.
 Adopted from BugFix-Stock/models/stock_move_line.py.
 """

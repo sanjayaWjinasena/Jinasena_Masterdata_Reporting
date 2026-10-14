@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """Inverse M2O for x_sales_report_type.x_studio_sales_lines_id.
 Adopted from BugFix-Sales/models/sale_order_line.py.
 """

@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """x_sales_report_model - report record instance model.
 
 Adopted from BugFix-Accounting. The 16 direct One2many fields to x_rm_*
