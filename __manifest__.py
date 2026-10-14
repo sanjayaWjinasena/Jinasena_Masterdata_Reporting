@@ -11,19 +11,6 @@
         'account.move.line, sale.order.line, stock.move, stock.move.line, '
         'and mrp.production.'
     ),
-    'description': """
-Reporting Masterdata
-====================
-
-Adopted from previously duplicated declarations in BugFix-Accounting,
-BugFix-Stock, BugFix-MRP and BugFix-Sales. Each of those had its own
-sentinel `_name = 'x_sales_report_type'` scaffold; consolidating to a
-single owner here eliminates the load-order cycle that blocked cross-
-repo O2M navigation.
-
-Downstream repos convert their sentinel files to _inherit-only (or
-delete them entirely) and add this module to their `depends` list.
-""",
     'author': 'Jinasena Agricultural Machinery (Pvt) Ltd.',
     'category': 'Extra Tools',
     'license': 'LGPL-3',
@@ -44,7 +31,5 @@ delete them entirely) and add this module to their `depends` list.
     # module as the model they render. Moving them would require
     # splitting the _v2.xml files which mix primaries + extensions -
     # not worth the risk on the first migration pass. Follow-up.
-    'installable': True,
-    'auto_install': False,
     'application': False,
 }
