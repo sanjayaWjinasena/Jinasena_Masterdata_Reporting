@@ -30,5 +30,4 @@
     # module as the model they render. Moving them would require
     # splitting the _v2.xml files which mix primaries + extensions -
     # not worth the risk on the first migration pass. Follow-up.
-    "application": False,
 }
