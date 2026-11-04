@@ -15,12 +15,12 @@ from odoo import fields, models
 
 class XSalesReportModel(models.Model):
     _name = "x_sales_report_model"
-    _rec_name = "x_name"  # Clear-DB Studio model: records are named by x_name
+    _rec_name = "name"  # Clear-DB Studio model: records are named by name
     _description = "X Sales Report Model"
     _inherit = ["mail.thread", "mail.activity.mixin"]
 
-    x_active = fields.Boolean(string="Active")
-    x_name = fields.Char(string="Name")
+    active = fields.Boolean(string="Active")
+    name = fields.Char(string="Name")
 
     # ------------------------------------------------------------------
     # Scalar fields (accounting/reporting scalars, OH/cost/GP/etc.)
@@ -32,7 +32,7 @@ class XSalesReportModel(models.Model):
     x_studio_as_on_date_2 = fields.Date(string="To Date")
     x_studio_auto_generated = fields.Boolean(string="Auto Generated")
     x_studio_contingency_ = fields.Float(string="Contingency %")
-    x_studio_created_date = fields.Date(string="Created Date")
+    created_date = fields.Date(string="Created Date")
     x_studio_date_updated = fields.Boolean(string="Date Updated")
     x_studio_distributor_addition = fields.Float(string="Distributor Addition %")
     x_studio_estimated_gp_ = fields.Float(string="Estimated GP")
@@ -61,7 +61,7 @@ class XSalesReportModel(models.Model):
     x_studio_selection_field_Fbw0x = fields.Selection(
         [("Draft", "Draft"), ("Done", "Done")], string="Status"
     )
-    x_studio_sequence = fields.Integer(string="Sequence")
+    sequence = fields.Integer(string="Sequence")
     x_studio_sscl = fields.Float(string="SSCL %")
 
     # ------------------------------------------------------------------
