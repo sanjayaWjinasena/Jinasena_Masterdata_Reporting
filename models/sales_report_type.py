@@ -20,7 +20,7 @@ class XSalesReportType(models.Model):
     _description = "X Sales Report Type"
     _inherit = ["mail.thread", "mail.activity.mixin"]
 
-    active = fields.Boolean(string="Active")
+    active = fields.Boolean()
     name = fields.Char(string="Report Name")
     report_code = fields.Selection(
         [
@@ -40,9 +40,8 @@ class XSalesReportType(models.Model):
             ("Project Gross Margin", "Project Gross Margin"),
             ("Costing Work Sheet", "Costing Work Sheet"),
         ],
-        string="Report Code",
     )
-    sequence = fields.Integer(string="Sequence")
+    sequence = fields.Integer()
 
     # ------------------------------------------------------------------
     # One2many navigation - inverse M2Os all live in this module
