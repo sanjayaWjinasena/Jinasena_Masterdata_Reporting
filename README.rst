@@ -3,7 +3,7 @@ Reporting Masterdata
 
 Adopted from previously duplicated declarations in BugFix-Accounting,
 BugFix-Stock, BugFix-MRP and BugFix-Sales. Each of those had its own
-sentinel `_name = 'x_sales_report_type'` scaffold; consolidating to a
+sentinel `_name = 'sales_report_type'` scaffold; consolidating to a
 single owner here eliminates the load-order cycle that blocked cross-
 repo O2M navigation.
 

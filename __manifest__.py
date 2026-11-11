@@ -1,9 +1,9 @@
 {
     "name": "Jinasena : SubModule : Reporting : Masterdata",
-    "version": "17.0.1.0.8",
+    "version": "17.0.1.0.9",
     "summary": (
         "Cross-cutting reporting masterdata for the Jinasena Odoo "
-        "installation. Owns x_sales_report_type + x_sales_report_model - "
+        "installation. Owns sales_report_type + sales_report_model - "
         "the report catalog + report record models that Sales, Accounting, "
         "Stock and MRP all consume. Also owns the inverse Many2one fields "
         "those models' One2manys navigate through, on account.move, "
@@ -15,7 +15,7 @@
     "license": "LGPL-3",
     # v17.0.1.0.2: shared Jinasena icon added at static/description/icon.png.
     # Cross-module audit confirmed zero real gap on this module's scope
-    # (x_sales_report_model + x_sales_report_type):
+    # (sales_report_model + sales_report_type):
     #   Fields: 0 gap  |  Views: 0 gap  |  Server actions: 0 (+3 ir_cron skipped)
     #   Base.automations: 0 gap  |  Window actions: 0 gap
     # 100% coverage across all categories.

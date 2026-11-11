@@ -1,4 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- Jinasena_Masterdata_Reporting backlog: 5 window actions --><odoo>
 
-  <!-- STRIPPED act_window_3592_sales_report: model x_bve.salesreport not on target --><!-- STRIPPED act_window_3622_sample_balance_movement_report: model x_bve.samplebalancemovementreport not on target --><!-- STRIPPED act_window_3573_test_1: model x_bve.test1 not on target --><!-- STRIPPED act_window_3349_jinasena_custom_reports_tags: model x_custom_reports_tag not on target --><!-- STRIPPED act_window_2380_sales_model_debug: model x_sales_model_debug not on target --></odoo>
+  <!-- STRIPPED act_window_3592_sales_report: model bve.salesreport not on target --><!-- STRIPPED act_window_3622_sample_balance_movement_report: model bve.samplebalancemovementreport not on target --><!-- STRIPPED act_window_3573_test_1: model x_bve.test1 not on target --><!-- STRIPPED act_window_3349_jinasena_custom_reports_tags: model custom_reports_tag not on target --><!-- STRIPPED act_window_2380_sales_model_debug: model sales_model_debug not on target --></odoo>
