@@ -15,6 +15,7 @@ from odoo import fields, models
 
 class XSalesReportModel(models.Model):
     _name = 'x_sales_report_model'
+    _rec_name = 'x_name'  # Clear-DB Studio model: records are named by x_name
     _description = 'X Sales Report Model'
     _inherit = ['mail.thread', 'mail.activity.mixin']
 
@@ -50,9 +51,9 @@ class XSalesReportModel(models.Model):
     x_studio_oh_absorbed_sales = fields.Float(string='OH Absorbed (Sales)')
     x_studio_other_oh = fields.Float(string='Other OH')
     x_studio_profit_mark_up_ = fields.Float(string='Profit Mark Up %')
-    x_studio_report_code = fields.Selection([], string='Report Code')
+    x_studio_report_code = fields.Selection(string='Report Code', related='x_studio_report_type.x_studio_report_code', store=True, readonly=True)
     x_studio_sales_oh = fields.Float(string='Sales OH')
-    x_studio_selection_field_Fbw0x = fields.Selection([], string='Status')
+    x_studio_selection_field_Fbw0x = fields.Selection([('Draft', 'Draft'), ('Done', 'Done')], string='Status')
     x_studio_sequence = fields.Integer(string='Sequence')
     x_studio_sscl = fields.Float(string='SSCL %')
 
